@@ -1,0 +1,15 @@
+{
+    "name": "NO Ads",
+    "version": "1.0",
+    "description": "Blocks ad from my favourite websites",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/SushiWar16x16.png",
+        "48": "icons/SushiWar48.png",
+        "128": "icons/SushiWar128.png"
+    },
+    "manifest_version": 2
+}
